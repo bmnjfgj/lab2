@@ -20,7 +20,7 @@ const toggleCart = () => {
 
 <template>
   <div id="app-container">
-    <h1>🛒 Скарбничка покупок</h1>
+    <h1>Скарбничка покупок</h1>
 
     <button @click="toggleCart" class="cart-toggle-btn">
       {{ isCartVisible ? 'Приховати' : 'Показати' }} Скарбничку
@@ -42,7 +42,6 @@ const toggleCart = () => {
 </template>
 
 <style>
-/* СТИЛІ ДЛЯ App.vue / ЗАГАЛЬНІ СТИЛІ */
 
 body {
   font-family: Arial, sans-serif;
