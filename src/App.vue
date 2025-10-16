@@ -5,10 +5,10 @@ import CartPanel from '@/components/CartPanel.vue';
 import type { Product } from '@/types';
 
 const availableProducts: Product[] = [
-  { id: 101, name: 'Світшот "Vue"', price: 850 },
-  { id: 102, name: 'Книга "TypeScript"', price: 420 },
-  { id: 103, name: 'Кружка "Coffee"', price: 180 },
-  { id: 104, name: 'Бейдж "Dev"', price: 50 },
+  { id: 1, name: 'Світшот "Vue"', price: 850 },
+  { id: 2, name: 'Книга "TypeScript"', price: 420 },
+  { id: 3, name: 'Кружка "Coffee"', price: 180 },
+  { id: 4, name: 'Бейдж "Dev"', price: 50 },
 ];
 
 const isCartVisible = ref(false);
